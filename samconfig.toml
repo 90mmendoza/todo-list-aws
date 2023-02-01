@@ -35,3 +35,4 @@ capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"production\""
 image_repositories = []
 disable_rollback=false
+
