@@ -2,24 +2,15 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-<<<<<<< HEAD
-stack_name = "todo-list-aws-mmendoza"
-s3_prefix = "todo-list-aws-mmendoza"
-=======
 stack_name = "todo-list-aws"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-3l3bx5cof720"
 s3_prefix = "todo-list-aws"
->>>>>>> dev
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"default\""
 image_repositories = []
 confirm_changeset = true
-<<<<<<< HEAD
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-3l3bx5cof720"
-=======
-disable_rollback = true
->>>>>>> dev
+disable_rollback=true
 
 [staging]
 [staging.deploy]
@@ -31,7 +22,7 @@ region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"staging\""
 image_repositories = []
-disable_rollback = true
+disable_rollback=true
 
 [production]
 [production.deploy]
@@ -43,4 +34,4 @@ region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"production\""
 image_repositories = []
-disable_rollback = false
+disable_rollback=false
