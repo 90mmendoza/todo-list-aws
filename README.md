@@ -4,8 +4,6 @@ Este proyecto contiene un ejemplo de solución **SAM + Jenkins**. Contiene una a
 
 ## Estructura
 
-#Test FULL CD
-
 A continuación se describe la estructura del proyecto:
 - **pipelines** - pipelines de Jenkins que permiten construir el CI/CD
 - **src** - en este directorio se almacena el código fuente de las funciones lambda con las que se va a trabajar
