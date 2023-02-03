@@ -16,7 +16,7 @@ pipeline {
                     git branch -a
                     git checkout -b dev origin/dev
                     git checkout -b main origin/main
-                    git merge develop
+                    git merge dev
                 """, label: "Merging code to main"
                 sshagent(['github']) {
                     sh "git push origin main"
